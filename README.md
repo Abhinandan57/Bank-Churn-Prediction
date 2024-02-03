@@ -1,3 +1,11 @@
+<h2 style="color:red">About the Repository</h2>
+
+Bank Churn Prediction is a **Binary Classification** problem. The required data for this problem is collected from Kaggle (https://www.kaggle.com/competitions/playground-series-s4e1/data). As a part of the solution of this problem statement, I have created multiple machine learning models. As the dataset is imbalanced, I have taken the help of SMOTE technique for oversampling. Each model is created after performing Exploratory Data Analysis (EDA), Data Preprocessing & Hyperparameter Tuning. And at the end the model performance is evaluated individually.
+
+I have created this repository basically to explore different machine learning algorithms & implement my knowledge, and skill on binary classification problem statement, in separate files. 🧐 Modular programming structure is not followed here. In my future repositories for specific projects, I will follow modular programming structure. 👍
+
+The details of the dataset, task & model evaluation criteria are provided below:
+
 <h2 style="color:red">Description</h2>
 
 The bank customer churn dataset is a commonly used dataset for predicting customer churn in the banking industry. It contains information on bank customers who either left the bank or continue to be a customer. The dataset includes the following attributes:
@@ -24,3 +32,4 @@ Predict whether a customer continues with their account or closes it (e.g., chur
 <h2 style="color:red">Evaluation Metric</h2>
 
 Submissions are evaluated on `area under the ROC curve` between the predicted probability and the observed target.
+
